@@ -7,7 +7,7 @@
   "author": "Salvatore Laisa <salvatore.laisa@mohole.it>",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development webpack serve --hot",
+    "start": "webpack serve --open",
     "build": "NODE_ENV=production webpack",
     "preghpages": "npm run build",
     "ghpages": "gh-pages -d ./dist"

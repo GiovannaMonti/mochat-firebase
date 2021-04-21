@@ -21,10 +21,10 @@ module.exports = {
     chunkFilename: 'bundle.[chunk].js'
   },
   plugins: [
-    new WebpackNotifierPlugin({
+    /*new WebpackNotifierPlugin({
       title: pkg.displayName,
       alwaysNotify: true
-    }),
+    }),*/
     new HtmlWebpackPlugin({
       title: pkg.displayName,
       template: './src/html/index.html'
